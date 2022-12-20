@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="30dp"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text="Professor:"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="228dp"
+                android:layout_height="30dp"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text="Name"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="30dp"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text="Subject: "
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="187dp"
+                android:layout_height="30dp"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text="subject"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text="Start Time: "
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text="start time"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="30dp"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:id="@+id/radiooo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:backgroundTint="@color/red" >
+                <RadioButton
+                    android:id="@+id/radioVRoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="VR"
+                    android:backgroundTint="@color/red"/>
+
+                <RadioButton
+                    android:id="@+id/radioNToo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NT" />
+
+                <RadioButton
+                    android:id="@+id/radioNSoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NS" />
+
+                <RadioButton
+                    android:id="@+id/radioCOoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CO" />
+
+                <RadioButton
+                    android:id="@+id/radioSUoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SU" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submitbtn"
+                android:layout_width="91dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="150dp"
+                android:textSize="10sp"
+                android:backgroundTint="@color/red"
+                android:gravity="center"
+                android:text="submit" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="match_parent"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text="End Time: "
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text="start time"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="30dp"
+                android:layout_weight="66.6"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:id="@+id/radioo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:backgroundTint="@color/red" >
+                <RadioButton
+                    android:id="@+id/radioVRo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="VR"
+                    android:backgroundTint="@color/red"/>
+
+                <RadioButton
+                    android:id="@+id/radioNTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NT" />
+
+                <RadioButton
+                    android:id="@+id/radioNSo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NS" />
+
+                <RadioButton
+                    android:id="@+id/radioCOo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CO" />
+
+                <RadioButton
+                    android:id="@+id/radioSUo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SU" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="91dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="150dp"
+                android:textSize="10sp"
+                android:backgroundTint="@color/red"
+                android:gravity="center"
+                android:text="submit" />
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

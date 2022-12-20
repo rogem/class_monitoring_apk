@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".R411Activity"
+    android:background="@color/cream"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/red">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_back"
+            android:onClick="btnbchme"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room 411"
+            android:layout_marginLeft="101dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="12dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checker's Code"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="15dp"
+            android:layout_marginRight="1dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VR = Vacant Room"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="100dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NT = No Teacher"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="100dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NS = No Student"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="100dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CO = Class Ongoing"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/listView"/>
+
+    </LinearLayout>
+</LinearLayout>

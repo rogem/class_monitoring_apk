@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomsActivity"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    android:background="#fee6a1"
+    tools:openDrawer="start">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/red"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rooms"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="College of Acts and Science"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CAS Building"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/casr401"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="401"
+                        android:onClick="casr401"
+                        android:layout_marginRight="40dp"/>
+                    <Button
+                        android:id="@+id/r403"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="403"
+                        android:onClick="casr403"
+                        android:layout_marginRight="40dp"/>
+                    <Button
+                        android:id="@+id/r405"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="405"
+                        android:onClick="casr405"
+                        android:layout_marginRight="40dp"/>
+                    <Button
+                        android:id="@+id/r407"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="407"
+                        android:onClick="casr407"
+                        android:layout_marginRight="40dp"/>
+                    <Button
+                        android:id="@+id/r411"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="411"
+                        android:onClick="casr411"
+                        android:layout_marginRight="40dp"/>
+                    <Button
+                        android:id="@+id/r413"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="413"
+                        android:onClick="casr413"
+                        android:layout_marginRight="40dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white">
+
+                    <Button
+                        android:id="@+id/r402"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="402"
+                        android:onClick="casr402"/>
+                    <Button
+                        android:id="@+id/r404"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="404"
+                        android:onClick="casr404"/>
+                    <Button
+                        android:id="@+id/r406"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="406"
+                        android:onClick="casr406"/>
+                    <Button
+                        android:id="@+id/r409"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="409"
+                        android:onClick="casr409"/>
+                    <Button
+                        android:id="@+id/r412"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="412"
+                        android:onClick="casr412"/>
+                    <Button
+                        android:id="@+id/r414"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/blue"
+                        android:text="414"
+                        android:onClick="casr414"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="College of Industrial Technology"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CIT Building"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+            <Button
+                android:id="@+id/citr401"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue"
+                android:text="401"
+                android:onClick="citr401"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

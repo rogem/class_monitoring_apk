@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cas_app">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cas_app"
+        tools:targetApi="31">
+        <activity
+            android:name=".R414Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Citr401Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R413Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R412Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R411Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R409Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R407Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R406Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R405Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R404Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R403Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R402Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R401Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashscreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Cas_app.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Cas_app.NoActionBar" />
+        <activity
+            android:name=".InstructionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoomsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotifActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Cas_app.NoActionBar" />
+    </application>
+
+</manifest>
